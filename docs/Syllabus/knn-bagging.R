@@ -42,4 +42,4 @@ for(i in 1:B) {
 
 lines(lstat[oo],efit[oo],col='red',lwd=4)
 }
-
+hist(nn)
