@@ -9,9 +9,9 @@ We will move at a pace dictated by class discussions. Please check this page oft
 | [**2**](#weeks-1-2) | 10/1 &ndash; 10/3   | Cross Validation                                                                 |
 | [**3**](#week-3)    | 10/8 &ndash; 10/10  | Decision Trees; Bagging and Random Forests; Boosting and Boosted Additive Models |
 | [**4**](#week-4)    | 10/15 &ndash; 10/17 | Categorical Outcomes and Classification Models                                   |
-| [**5**](#week-5)    | 10/22 &ndash; 10/24 | Neural Networks                                                                  |
-| 6                   | 10/29 &ndash; 10/31 | Recommender Systems                                                              | 
-| 7                   | 11/5 &ndash; 11/7   | Anomaly Detection                                                                |
+| [**5**](#week-5)    | 10/22 &ndash; 10/24 | Logistic regression and Intro to Neural networks                                 |
+| [**6**](#week-6)    | 10/29 &ndash; 10/31 | Neural Networks                                                                  | 
+| [**7**](#week-7)    | 11/5 &ndash; 11/7   | Recommender Systems                                                              |
 | 8                   | 11/12 &ndash; 11/14 | Mining Network Data                                                              |
 | 9                   | 11/19 &ndash; 11/21 | Probabilistic Graphical Models; Hidden Markov Models; Naive Bayes                |
 | 10                  | 12/3 &ndash; 12/5   | Mining Time Series                                                               |
@@ -70,7 +70,9 @@ _Lecture Slides:_ <br>
 [**Trees, Bagging, Random Forests and Boosting**](Syllabus/03_trees_bag_boost.pdf)
 
 _**R code**:_ <br>
-[knn-bagging.R](Syllabus/knn-bagging.R) <br>
+[knn-bagging.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture03/knn-bagging.R) <br>
+[boosting_demo_1D.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture03/boosting_demo_1D.R) <br>
+[boosting_demo_2D.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture03/boosting_demo_2D.R) <br>
 [BostonHousing_Trees_RandomForests_BoostedAdditiveModels.Rmd](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Boston%20Housing/R/BostonHousing_Trees_RandomForests_BoostedAdditiveModels.Rmd)
 
 - you can find an advanced version featuring the popular **caret** package and **parallel computation** here: [BostonHousing_Trees_RandomForests_BoostedAdditiveModels_usingCaretPackage.Rmd](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Boston%20Housing/R/BostonHousing_Trees_RandomForests_BoostedAdditiveModels_usingCaretPackage.Rmd)
@@ -78,9 +80,10 @@ _**R code**:_ <br>
 _**Python code**:_ <br>
 [BostonHousing_Trees_RandomForests_BoostedAdditiveModels.ipynb](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/Boston%20Housing/Python/BostonHousing_Trees_RandomForests_BoostedAdditiveModels.ipynb)
 
-
-
 _Homework assignment:_ See Problem 9.1 in Lecture notes for this week.
+
+- [model answers in R Markdown](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Used%20Cars/R/UsedCars_HW03ans.Rmd)
+- [model answers in iPython Notebook](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/Used%20Cars/Python/UsedCars_HW03ans.ipynb)
 
 _Optional textbook reading:_ 
 An Introduction to Statistical Learning: Chapter 8
@@ -94,12 +97,10 @@ _Lecture Slides:_ <br>
 [**Perceptron -- R Markdown Script to recreate slides**](Syllabus/Perceptron.Rmd.zip)
 
 _**R code**:_ <br>
-[boosting_demo_1D.R](Syllabus/boosting_demo_1D.R) <br>
-[boosting_demo_2D.R](Syllabus/boosting_demo_2D.R) <br>
-[fglass.R](Syllabus/fglass.R) <br>
-[04_kaggle_logit_rf_boost.R](Syllabus/04_kaggle_logit_rf_boost.R) <br>
-[04_simulation_logit_rf_boost.R](Syllabus/04_simulation_logit_rf_boost.R) <br>
-[04_tabloid_logit_rf_boost.R](Syllabus/04_tabloid_logit_rf_boost.R) <br>
+[fglass.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture04/fglass.R) <br>
+[04_kaggle_logit_rf_boost.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture04/04_kaggle_logit_rf_boost.R) <br>
+[04_simulation_logit_rf_boost.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture04/04_simulation_logit_rf_boost.R) <br>
+[04_tabloid_logit_rf_boost.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture04/04_tabloid_logit_rf_boost.R) <br>
 [KaggleCreditScoring_usingCaretPackage.Rmd](http://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Kaggle%20Credit%20Scoring/R/KaggleCreditScoring_usingCaretPackage.Rmd) <br>
 [TabloidMarketing_usingCaretPackage.Rmd](http://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Tabloid%20Marketing/R/TabloidMarketing_usingCaretPackage.Rmd)
 
@@ -115,6 +116,9 @@ _Homework assignment:_  <br>
 [04_hw.pdf](Syllabus/04_hw.pdf) <br>
 Start early.
 
+- [model answers in R Markdown](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/KDD%20Cup%202009%20Orange%20Customer%20Relationships/R/KDDCup2009_OrangeCustRel_Churn.Rmd); **note**: the whole thing takes a **long time** to run completely
+- [model answers in iPython Notebook](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/KDD%20Cup%202009%20Orange%20Customer%20Relationships/Python/KDDCup2009_OrangeCustRel_Churn.ipynb); **note**: the whole thing takes a **long time** to run completely
+
 _Optional textbook reading:_ 
 An Introduction to Statistical Learning: Chapter 4 (we will not talk about linear discriminant analysis)
 
@@ -126,28 +130,93 @@ D. Sculley et al.: Machine Learning: The High Interest Credit Card of Technical 
 ## Week 5
 
 _Lecture Slides:_ <br>
-[**Neural networks**](Syllabus/05_nn.pdf) <br>
-[**MNIST example**](Syllabus/05_mnist_example.pdf) <br>
+[**Logistic regression**](Syllabus/05_logistic_regression.pdf) <br>
+[**RMarkdown -- Logistic regression**](Syllabus/05_logistic_regression.zip) <br>
+
+
+_**R code**:_ <br>
+[lr_decision_surface.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture05/lr_decision_surface.R) <br>
+[we8there.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture05/we8there.R) <br>
+
+
+Optional textbook reading:_ 
+An Introduction to Statistical Learning: Chapter 4, Section 6.2
+
+## Midterm Exam
+
+[**Midterm Exam Questions**](Syllabus/Midterm.pdf)
+
+
+## Week 6
+
+_Lecture Slides:_ <br>
+[**Neural networks**](Syllabus/06_nn.pdf) <br>
+[**MNIST example**](Syllabus/06_mnist_example.pdf) <br>
+
+[**ALVINN video**](http://watson.latech.edu/book/intelligence/intelligenceOverview5b4.html)
+
 
 _**R code**:_ <br>
 
-[Syllabus/05_h2o_install.R](Syllabus/05_h2o_install.R) <br>
-[05_tabloid_h2o.R](Syllabus/05_tabloid_h2o.R) <br>
-[05_tabloid_nnet.R](Syllabus/05_tabloid_nnet.R) <br>
-[05_we8there.R](Syllabus/05_we8there.R) <br>
-[05_helper.R](Syllabus/05_helper.R) <br>
-[05_h2o_mnist.R](Syllabus/05_h2o_mnist.R) <br>
+See our [GitHub](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/tree/master/Programming%20Scripts/Lecture06). <br>
+We suggest you do close the folder "Lecture06" or download all of its content, as the folder contains some pretrained models, which may take a long time to train again.
+
+In order to install h2o package, go to [http://h2o-release.s3.amazonaws.com/h2o/master/3232/index.html](http://h2o-release.s3.amazonaws.com/h2o/master/3232/index.html), click on "INSTALL IN R", and follow instructions.
+
+Alternatively, you can type the following in R:
+
+> source("https://raw.githubusercontent.com/ChicagoBoothML/HelpR/master/booth.ml.packages.R")
+
+[MNISTDigits_NeuralNet.Rmd](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/LeCun%20MNIST%20Digits/R/MNISTDigits_NeuralNet.Rmd)
+
+_**Python code**_ <br>
+[MNISTDigits_NeuralNet_KerasPackage.Rmd](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/LeCun%20MNIST%20Digits/Python/MNISTDigits_NeuralNet_KerasPackage.ipynb)
+
+
+_Homework assignment:_  <br>
+
+[06_hw.pdf](Syllabus/06_hw.pdf) <br>
+[ParseData.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/UCI%20Human%20Activity%20Recognition%20Using%20Smartphones/R/ParseData.R)
+
+To load data use:
+
+> source("ParseData.R")
+>
+> data <- parse_human_activity_recog_data()
+
+Due Sunday, November 8.
 
 _Optional textbook reading:_ 
-An Introduction to Statistical Learning: Chapter 4, Section 6.2
-
 The Elements of Statistical Learning: Sections 11.3 - 11.5
 
 _Some h2o resources:_
 
-[h2o package](http://h2o-release.s3.amazonaws.com/h2o/master/3229/docs-website/h2o-r/h2o_package.pdf)
+[h2o package](http://h2o-release.s3.amazonaws.com/h2o/master/3232/docs-website/h2o-r/h2o_package.pdf) <br>
+[Deep Learning](http://h2o-release.s3.amazonaws.com/h2o/master/3232/docs-website/h2o-docs/booklets/DeepLearning_Vignette.pdf) <br>
+[GLM](http://h2o-release.s3.amazonaws.com/h2o/master/3232/docs-website/h2o-docs/booklets/GLM_Vignette.pdf) <br>
 
-[Deep Learning](http://h2o-release.s3.amazonaws.com/h2o/master/3229/docs-website/h2o-docs/booklets/DeepLearning_Vignette.pdf)
 
-[GLM](http://h2o-release.s3.amazonaws.com/h2o/master/3229/docs-website/h2o-docs/booklets/GLM_Vignette.pdf)
 
+## Week 7
+
+_Lecture Slides:_ <br>
+
+
+_**R code**:_ <br>
+
+In this lecture, we will be using *recommenderlab* package.
+
+[recommenderlab: Reference manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf) <br>
+[recommenderlab: Vignette](https://cran.r-project.org/web/packages/recommenderlab/vignettes/recommenderlab.pdf) <br>
+
+_**Python code**_ <br>
+
+
+_Homework assignment:_  <br>
+
+
+_Optional reading:_ 
+
+[Amazon.com Recommendations](http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf) <br>
+[Cold Start Problem](http://wanlab.poly.edu/recsys12/recsys/p115.pdf) <br>
+[Matrix Factorization Techniques For Recommender Systems](http://www2.research.att.com/~volinsky/papers/ieeecomputer.pdf) <br>
