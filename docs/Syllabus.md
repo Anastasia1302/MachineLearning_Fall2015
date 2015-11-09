@@ -133,14 +133,13 @@ _Lecture Slides:_ <br>
 [**Logistic regression**](Syllabus/05_logistic_regression.pdf) <br>
 [**RMarkdown -- Logistic regression**](Syllabus/05_logistic_regression.zip) <br>
 
-
 _**R code**:_ <br>
 [lr_decision_surface.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture05/lr_decision_surface.R) <br>
 [we8there.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture05/we8there.R) <br>
 
-
 Optional textbook reading:_ 
 An Introduction to Statistical Learning: Chapter 4, Section 6.2
+
 
 ## Midterm Exam
 
@@ -170,7 +169,7 @@ Alternatively, you can type the following in R:
 [MNISTDigits_NeuralNet.Rmd](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/LeCun%20MNIST%20Digits/R/MNISTDigits_NeuralNet.Rmd)
 
 _**Python code**_ <br>
-[MNISTDigits_NeuralNet_KerasPackage.Rmd](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/LeCun%20MNIST%20Digits/Python/MNISTDigits_NeuralNet_KerasPackage.ipynb)
+[MNISTDigits_NeuralNet_KerasPackage.ipynb](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/LeCun%20MNIST%20Digits/Python/MNISTDigits_NeuralNet_KerasPackage.ipynb)
 
 
 _Homework assignment:_  <br>
@@ -196,7 +195,6 @@ _Some h2o resources:_
 [GLM](http://h2o-release.s3.amazonaws.com/h2o/master/3232/docs-website/h2o-docs/booklets/GLM_Vignette.pdf) <br>
 
 
-
 ## Week 7
 
 _Lecture Slides:_ <br>
@@ -204,17 +202,27 @@ _Lecture Slides:_ <br>
 
 _**R code**:_ <br>
 
-See our [GitHub](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/tree/master/Programming%20Scripts/Lecture07). <br>
+[simpleScript.R](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/Lecture07/simpleScript.R) This is a toy example illustrating how to compute similarities between users, recommend items and predict ratings. 
+
+[MovieLens_MovieRecommendation.Rmd](https://raw.githubusercontent.com/ChicagoBoothML/MachineLearning_Fall2015/master/Programming%20Scripts/MovieLens%20Movie%20Recommendation/R/MovieLens_MovieRecommendation.Rmd)
 
 In this lecture, we will be using *recommenderlab* package.
 
 [recommenderlab: Reference manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf) <br>
 [recommenderlab: Vignette](https://cran.r-project.org/web/packages/recommenderlab/vignettes/recommenderlab.pdf) <br>
 
+
 _**Python code**_ <br>
+[MovieLens_MovieRecommendation.ipynb]
+
+- _**note**: this script requires **Apache Spark** to be install; also, the Recommender functionalities of Spark MLlib are not as extensive as `recommenderlab` in R_
 
 
 _Homework assignment:_  <br>
+
+[Assignment](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/Lecture07/hw/hw.pdf?raw=true) <br>
+Data: [videoGames.json.gz](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/Lecture07/hw/videoGames.json.gz?raw=true) <br>
+Starter script: [starterScript.R](https://github.com/ChicagoBoothML/MachineLearning_Fall2015/blob/master/Programming%20Scripts/Lecture07/hw/starterScript.R?raw=true) 
 
 
 _Optional reading:_ 

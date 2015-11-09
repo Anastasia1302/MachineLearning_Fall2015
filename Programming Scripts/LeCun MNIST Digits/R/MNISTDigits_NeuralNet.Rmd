@@ -40,15 +40,8 @@ set.seed(RANDOM_SEED)
 # Data Import
 
 ```{r}
-# *************************************************************************************
-# NOTE: the following path is specific to my computer
-# You need to change it to a relevant folder on your computer containing the MNIST data
-
-DATA_FOLDER_PATH <- '/Cloud/Box Sync/Repos/DATA/DATA___LeCun___MNISTDigits'
-
-# *************************************************************************************
-
-data <- load_mnist(DATA_FOLDER_PATH)
+data <- load_mnist(
+  'https://raw.githubusercontent.com/ChicagoBoothML/DATA___LeCun___MNISTDigits/master')
 X_train <- data$train$x
 y_train <- data$train$y
 X_test <- data$test$x
